@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
+   <Version>2.2.1</Version>
+   <DisplayData>
+      <ResourceID>spase://VITMO/DisplayData/TIMED/GUVI/Aurora_PNG</ResourceID>
+      <ResourceHeader>
+         <ResourceName>TIMED GUVI Auroral PNG Images</ResourceName>
+         <ReleaseDate>2011-11-30T12:00:00.000</ReleaseDate>
+         <Description>2-D E0 and Q map images of the north and south pole aurora from GUVI L1C N2 LBH radiance data.</Description>
+         <Acknowledgement>The GUVI data used here are provided through support from the NASA MOamp;DA program. The GUVI instrument was designed and built by The Aerospace Corporation and The Johns Hopkins University. The Principal Investigator is Dr. Andrew B. Christensen and the Chief Scientist and co-PI is Dr. Larry J. Paxton. See also Data Usage Policy at http://guvi.jhuapl.edu/site/data/guvi-datausage.shtml.</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Andrew.B.Christensen</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Larry.J.Paxton</PersonID>
+            <Role>CoInvestigator</Role>
+         </Contact>
+         <InformationURL>
+            <Name>Aurora Data Products Description</Name>
+            <URL>http://guvi.jhuapl.edu/site/data/documents/auroradata_info.html</URL>
+         </InformationURL>
+         <InformationURL>
+            <Name>Aurora Data Products Availability (PNG)</Name>
+            <URL>http://guvi.jhuapl.edu/site/data/data_status/l3_map_aurora_png.shtml</URL>
+         </InformationURL>
+      </ResourceHeader>
+      <AccessInformation>
+         <RepositoryID>spase://SMWG/Repository/TIMED/GUVI_POC</RepositoryID>
+         <Availability>Online</Availability>
+         <AccessRights>Open</AccessRights>
+         <AccessURL>
+            <Name>GUVI POC L3 Aurora Map (PNG) Data Request</Name>
+            <URL>http://guvi.jhuapl.edu/site/data/data_fetch/l3_map_aurora_png.shtml</URL>
+            <Description>This web page allows the request of PNG-formatted image files for this product.  To request data: select the year and day then click the link for the desired file name.</Description>
+         </AccessURL>
+         <AccessURL>
+            <Name>GUVI POC L3 Aurora Map Gallery</Name>
+            <URL>http://guvi.jhuapl.edu/site/gallery/guvi-galleryl3aurora.shtml</URL>
+            <Description>This web page allows viewing of individual images or a slideshow of a sequence of images.  To request data: select the year, day and orbit and the display type then click display.</Description>
+         </AccessURL>
+         <AccessURL>
+            <Name>GUVI Data Products Access</Name>
+            <URL>http://guvi.jhuapl.edu/site/data/guvi-dataproducts.shtml</URL>
+            <Description>This web page provides access to data products as well as to descriptions and availability information.</Description>
+         </AccessURL>
+         <Format>PNG</Format>
+         <Encoding>None</Encoding>
+         <Acknowledgement>NASA, Andrew B. Christensen</Acknowledgement>
+      </AccessInformation>
+      <AccessInformation>
+         <RepositoryID>spase://SMWG/Repository/TIMED/GUVI_POC</RepositoryID>
+         <Availability>Online</Availability>
+         <AccessRights>Open</AccessRights>
+         <AccessURL>
+            <Name>GUVI POC L3 Aurora Map (PostScript) Data Request</Name>
+            <URL>http://guvi.jhuapl.edu/site/data/data_fetch/l3_map_aurora_postscript.shtml</URL>
+            <Description>This web page allows the request of PostScript-formatted image files for this product.  To request data: select the year and day then click the link for the desired file name.</Description>
+         </AccessURL>
+         <AccessURL>
+            <Name>GUVI POC L3 Aurora Map Gallery</Name>
+            <URL>http://guvi.jhuapl.edu/site/gallery/guvi-galleryl3aurora.shtml</URL>
+            <Description>This web page allows viewing of individual images or a slideshow of a sequence of images.  To request data: select the year, day and orbit and the display type then click display.</Description>
+         </AccessURL>
+         <AccessURL>
+            <Name>GUVI Data Products Access</Name>
+            <URL>http://guvi.jhuapl.edu/site/data/guvi-dataproducts.shtml</URL>
+            <Description>This web page provides access to data products as well as to descriptions and availability information.</Description>
+         </AccessURL>
+         <Format>Postscript</Format>
+         <Encoding>None</Encoding>
+         <Acknowledgement>NASA, Andrew B. Christensen</Acknowledgement>
+      </AccessInformation>
+      <ProcessingLevel>Calibrated</ProcessingLevel>
+      <ProviderResourceName>GUVI Auroral Images</ProviderResourceName>
+      <ProviderProcessingLevel>Level 3</ProviderProcessingLevel>    
+      <InstrumentID>spase://SMWG/Instrument/TIMED/GUVI</InstrumentID>
+      <MeasurementType>Spectrum</MeasurementType>
+      <TemporalDescription>
+         <TimeSpan>
+            <StartDate>2002-01-20T00:00:00.000Z</StartDate>
+            <StopDate>2007-11-04T00:00:00.000Z</StopDate>
+         </TimeSpan>
+      </TemporalDescription>
+      <DisplayCadence>PT1H37M</DisplayCadence>
+      <ObservedRegion>Earth.NearSurface.AuroralRegion</ObservedRegion>
+      <Caveats>The L1C files currently available are being evaluated. Please contact GUVI team before using</Caveats>
+      <Keyword>TIMED</Keyword>
+      <Keyword>GUVI</Keyword>
+      <Keyword>aurora</Keyword>
+      <Parameter>
+         <Name>Magnetic north electron mean energy</Name>
+         <ParameterKey>Magnetic North Mean Energy</ParameterKey>
+         <Description>Estimated magnetic north electron mean energy (E0)</Description>
+         <Units>keV</Units>
+         <Particle>
+            <ParticleType>Electron</ParticleType>
+            <ParticleQuantity>Energy</ParticleQuantity>
+            <EnergyRange>
+				<Low>0.5</Low>
+				<High>20</High>
+				<Units>keV</Units>
+			</EnergyRange>
+         </Particle>
+      </Parameter>
+      <Parameter>
+         <Name>Magnetic south electron mean energy</Name>
+         <ParameterKey>Magnetic South Mean Energy</ParameterKey>
+         <Description>Estimated magnetic south electron mean energy (E0)</Description>
+         <Units>keV</Units>
+         <Particle>
+            <ParticleType>Electron</ParticleType>
+            <ParticleQuantity>Energy</ParticleQuantity>
+            <EnergyRange>
+				<Low>0.5</Low>
+				<High>20</High>
+				<Units>keV</Units>
+			</EnergyRange>
+         </Particle>
+      </Parameter>
+      <Parameter>
+         <Name>Magnetic north electron energy flux</Name>
+         <ParameterKey>Magnetic North Flux</ParameterKey>
+         <Description>Estimated magnetic north electron energy flux (Q)</Description>
+         <Units>ergs/s/cm^2</Units>
+         <Particle>
+            <ParticleType>Electron</ParticleType>
+            <ParticleQuantity>EnergyFlux</ParticleQuantity>
+         </Particle>
+      </Parameter>
+      <Parameter>
+         <Name>Magnetic south electron energy flux</Name>
+         <ParameterKey>Magnetic South Flux</ParameterKey>
+         <Description>Estimated magnetic south electron energy flux (Q)</Description>
+         <Units>ergs/s/cm^2</Units>
+         <Particle>
+            <ParticleType>Electron</ParticleType>
+            <ParticleQuantity>EnergyFlux</ParticleQuantity>
+         </Particle>
+      </Parameter>
+   </DisplayData>
+</Spase>

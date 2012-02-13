@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
+   <Version>2.2.1</Version>
+   <NumericalData>
+      <ResourceID>spase://VITMO/NumericalData/TIMED/GUVI/L2B_Neutral_Density_Profiles</ResourceID>
+      <ResourceHeader>
+         <ResourceName>TIMED GUVI L2B Neutral Density Profiles</ResourceName>
+         <ReleaseDate>2011-10-21T12:00:00.000</ReleaseDate>
+         <Description>O2, N2, and O neutral density profiles as a function of latitude and altitude derived from GUVI OI 135.6 nm and N2 LBH short and long radiance profiles.</Description>
+         <Acknowledgement>NASA, Andrew B. Christensen</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Andrew.B.Christensen</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <InformationURL>
+            <Name>Neutral Density Profiles description</Name>
+            <URL>http://guvi.jhuapl.edu/site/data/documents/guvi_dit_readme_02-04-10.pdf</URL>
+         </InformationURL>
+      </ResourceHeader>
+      <AccessInformation>
+         <RepositoryID>spase://SMWG/Repository/TIMED/GUVI_POC</RepositoryID>
+         <Availability>Online</Availability>
+         <AccessRights>Open</AccessRights>
+         <AccessURL>
+            <Name>GUVI POC L2B Neutral Density Product (IDLsave) Data Request</Name>
+            <URL>http://guvi.jhuapl.edu/site/data/data_fetch/l2b_ndp_idlsave.shtml</URL>
+            <Description>This web page allows the request of data files for this product.  To request data: select the year and day then press display.</Description>
+         </AccessURL>
+         <Format>IDL</Format>
+         <Encoding>None</Encoding>
+         <Acknowledgement>NASA, Andrew B. Christensen</Acknowledgement>
+      </AccessInformation>
+      <ProcessingLevel>Calibrated</ProcessingLevel>
+      <ProviderResourceName>GUVI L2B Neutral Density Profiles</ProviderResourceName>
+      <ProviderProcessingLevel>Level 2B</ProviderProcessingLevel>
+      <InstrumentID>spase://SMWG/Instrument/TIMED/GUVI</InstrumentID>
+      <MeasurementType>Profile</MeasurementType>
+      <TemporalDescription>
+         <TimeSpan>
+            <StartDate>2002-03-01T00:00:00.000Z</StartDate>
+            <StopDate>2007-12-11T00:00:00.000Z</StopDate>
+         </TimeSpan>
+      </TemporalDescription>      
+      <ObservedRegion>Earth.NearSurface.Thermosphere</ObservedRegion>
+      <ObservedRegion>Earth.NearSurface.AuroralRegion</ObservedRegion>
+      <Keyword>TIMED</Keyword>
+      <Keyword>GUVI</Keyword>      
+      <Keyword>lower thermosphere</Keyword>
+      <Keyword>MLTI</Keyword>
+      <Parameter>
+         <Name>Neutral Density</Name>
+         <Description>Neutral Density Profiles Data</Description>
+         <Units>cm-3</Units>
+         <Particle>
+            <ParticleType>Molecule</ParticleType>
+            <ParticleQuantity>NumberDensity</ParticleQuantity>
+         </Particle>
+      </Parameter>
+   </NumericalData>
+</Spase>
