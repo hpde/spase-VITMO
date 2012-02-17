@@ -71,6 +71,18 @@
          <Encoding>None</Encoding>
          <Acknowledgement>NASA, Andrew B. Christensen</Acknowledgement>
       </AccessInformation>
+   <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb ftp area</Name>
+        <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/timed/guvi/aurora/</URL>
+        <Description>FTP repository of TIMED GUVI L3 Aurora data in CDF format at CDAWeb</$
+      </AccessURL>
+      <Format>CDF</Format>
+        <Acknowledgement>Please acknowledge the support from the CDAWeb team at GSFC/SPDF.$
+    </AccessInformation>
       <ProcessingLevel>Calibrated</ProcessingLevel>
       <ProviderResourceName>GUVI Auroral Images</ProviderResourceName>
       <ProviderProcessingLevel>Level 3</ProviderProcessingLevel>    

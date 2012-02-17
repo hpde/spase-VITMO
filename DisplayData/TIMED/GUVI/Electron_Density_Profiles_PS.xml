@@ -57,6 +57,18 @@
          <Encoding>None</Encoding>
          <Acknowledgement>NASA, Andrew B. Christensen</Acknowledgement>
       </AccessInformation>
+   <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb ftp area</Name>
+        <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/timed/guvi/edp/</URL>
+        <Description>FTP repository of TIMED GUVI L2B EDP data in CDF format at CDAWeb</De$
+      </AccessURL>
+      <Format>CDF</Format>
+        <Acknowledgement>Please acknowledge the support from the CDAWeb team at GSFC/SPDF.$
+    </AccessInformation>
       <ProcessingLevel>Calibrated</ProcessingLevel>
       <ProviderResourceName>Electron Density Profile Daily Summaries</ProviderResourceName>
       <ProviderProcessingLevel>Level 3</ProviderProcessingLevel>

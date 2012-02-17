@@ -29,6 +29,18 @@
          <Format>JPEG</Format>
          <Acknowledgement>NASA, Andrew B. Christensen</Acknowledgement>
       </AccessInformation>
+   <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb ftp area</Name>
+        <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/timed/guvi/l1cdisk</URL>
+        <Description>FTP repository of TIMED GUVI L2B EDP data in CDF format at CDAWeb</De$
+      </AccessURL>
+      <Format>CDF</Format>
+        <Acknowledgement>Please acknowledge the support from the CDAWeb team at GSFC/SPDF.$
+    </AccessInformation>
       <ProcessingLevel>Calibrated</ProcessingLevel>
       <ProviderResourceName>GUVI Imaging L1C Disk Orbit-by-Orbit Images</ProviderResourceName>
       <ProviderProcessingLevel>Level 1C</ProviderProcessingLevel>
