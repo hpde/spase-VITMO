@@ -1,36 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
-   <Version>2.2.1</Version>
-   <NumericalData>
-      <ResourceID>spase://VITMO/NumericalData/TIMED/GUVI/L2B_Electron_Density_Profiles</ResourceID>
-      <ResourceHeader>
-         <ResourceName>TIMED GUVI L2B Electron Density Profiles</ResourceName>
-         <ReleaseDate>2011-10-21T12:00:00.000</ReleaseDate>
-         <Description>Contains the Electron Density Profiles derived from the GUVI sensor data from averaged Super Pixels. </Description>
-         <Acknowledgement>NASA, Andrew B. Christensen</Acknowledgement>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Andrew.B.Christensen</PersonID>
-            <Role>PrincipalInvestigator</Role>
-         </Contact>
-         <InformationURL>
-            <Name>Electron Density Profiles description</Name>
-            <URL>http://guvi.jhuapl.edu/site/data/documents/guvi_Level2_edp_datainfo.pdf</URL>
-         </InformationURL>
-      </ResourceHeader>
-      <AccessInformation>
-         <RepositoryID>spase://SMWG/Repository/TIMED/GUVI_POC</RepositoryID>
-         <Availability>Online</Availability>
-         <AccessRights>Open</AccessRights>
-         <AccessURL>
-            <Name>GUVI POC L2B Electron Density Product (IDLsave) Data Request</Name>
-            <URL>http://guvi.jhuapl.edu/site/data/data_fetch/l2b_edp_netcdf.shtml</URL>
-            <Description>This web page allows the request of data files for this product.  To request data: select the year and day then press display.</Description>
-         </AccessURL>
-         <Format>NetCDF</Format>
-         <Encoding>None</Encoding>
-         <Acknowledgement>NASA, Andrew B. Christensen</Acknowledgement>
-      </AccessInformation>
-     <AccessInformation>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
+    <Version>2.2.1</Version>
+    <NumericalData>
+        <ResourceID>spase://VITMO/NumericalData/TIMED/GUVI/L2B_Electron_Density_Profiles</ResourceID>
+        <ResourceHeader>
+            <ResourceName>TIMED GUVI L2B Electron Density Profiles</ResourceName>
+            <ReleaseDate>2011-10-21T12:00:00.000</ReleaseDate>
+            <Description>Contains the Electron Density Profiles derived from the GUVI sensor data from averaged Super Pixels. </Description>
+            <Acknowledgement>NASA, Andrew B. Christensen</Acknowledgement>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Andrew.B.Christensen</PersonID>
+                <Role>PrincipalInvestigator</Role>
+            </Contact>
+            <InformationURL>
+                <Name>Electron Density Profiles description</Name>
+                <URL>http://guvi.jhuapl.edu/site/data/documents/guvi_Level2_edp_datainfo.pdf</URL>
+            </InformationURL>
+        </ResourceHeader>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/TIMED/GUVI_POC</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>GUVI POC L2B Electron Density Product (IDLsave) Data Request</Name>
+                <URL>http://guvi.jhuapl.edu/site/data/data_fetch/l2b_edp_netcdf.shtml</URL>
+                <Description>This web page allows the request of data files for this product.  To request data: select the year and day then press display.</Description>
+            </AccessURL>
+            <Format>NetCDF</Format>
+            <Encoding>None</Encoding>
+            <Acknowledgement>NASA, Andrew B. Christensen</Acknowledgement>
+        </AccessInformation>
+        <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
@@ -42,31 +41,31 @@
             <Format>Text</Format>
             <Acknowledgement>Please acknowledge the support from the CDAWeb team at GSFC/SPDF.</Acknowledgement>
         </AccessInformation>
-      <ProcessingLevel>Calibrated</ProcessingLevel>
-      <ProviderResourceName>GUVI L2B Electron Density Product</ProviderResourceName>
-      <ProviderProcessingLevel>Level 2B</ProviderProcessingLevel>
-      <InstrumentID>spase://SMWG/Instrument/TIMED/GUVI</InstrumentID>
-      <MeasurementType>Profile</MeasurementType>
-      <TemporalDescription>
-         <TimeSpan>
-            <StartDate>2002-03-22T00:00:00.000Z</StartDate>
-            <StopDate>2007-12-11T00:00:00.000Z</StopDate>
-         </TimeSpan>
-      </TemporalDescription>
-      <ObservedRegion>Earth.NearSurface.Ionosphere</ObservedRegion>
-      <Keyword>TIMED</Keyword>
-      <Keyword>GUVI</Keyword>      
-      <Keyword>lower thermosphere</Keyword>
-      <Keyword>MLTI</Keyword>
-      <Parameter>
-         <Name>Electron Density</Name>
-         <ParameterKey>ep</ParameterKey>
-         <Description>Electron Density Profiles Data</Description>
-         <Units>cm-3</Units>
-         <Particle>
-            <ParticleType>Electron</ParticleType>
-            <ParticleQuantity>NumberDensity</ParticleQuantity>
-         </Particle>
-      </Parameter>
-   </NumericalData>
+        <ProcessingLevel>Calibrated</ProcessingLevel>
+        <ProviderResourceName>GUVI L2B Electron Density Product</ProviderResourceName>
+        <ProviderProcessingLevel>Level 2B</ProviderProcessingLevel>
+        <InstrumentID>spase://SMWG/Instrument/TIMED/GUVI</InstrumentID>
+        <MeasurementType>Profile</MeasurementType>
+        <TemporalDescription>
+            <TimeSpan>
+                <StartDate>2002-03-22T00:00:00.000Z</StartDate>
+                <StopDate>2007-12-11T00:00:00.000Z</StopDate>
+            </TimeSpan>
+        </TemporalDescription>
+        <ObservedRegion>Earth.NearSurface.Ionosphere</ObservedRegion>
+        <Keyword>TIMED</Keyword>
+        <Keyword>GUVI</Keyword>
+        <Keyword>lower thermosphere</Keyword>
+        <Keyword>MLTI</Keyword>
+        <Parameter>
+            <Name>Electron Density</Name>
+            <ParameterKey>ep</ParameterKey>
+            <Description>Electron Density Profiles Data</Description>
+            <Units>cm-3</Units>
+            <Particle>
+                <ParticleType>Electron</ParticleType>
+                <ParticleQuantity>NumberDensity</ParticleQuantity>
+            </Particle>
+        </Parameter>
+    </NumericalData>
 </Spase>

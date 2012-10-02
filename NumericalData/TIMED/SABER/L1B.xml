@@ -1,36 +1,35 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
-   <Version>2.2.1</Version>
-   <NumericalData>
-      <ResourceID>spase://VITMO/NumericalData/TIMED/SABER/L1B</ResourceID>
-      <ResourceHeader>
-         <ResourceName>TIMED SABER Level 1B </ResourceName>
-         <ReleaseDate>2011-10-21T12:00:00.000</ReleaseDate>
-         <Description>Contains the SABER Level 1B calibrated radiance profiles converted to radiance units with instrument effects removed, geolocated and gridded to uniform angle spacing. </Description>
-         <Acknowledgement>NASA, James M. Russell III</Acknowledgement>
-         <Contact>
-            <PersonID>spase://SMWG/Person/James.M.Russell.III</PersonID>
-            <Role>PrincipalInvestigator</Role>
-         </Contact>
-         <InformationURL>
-            <Name>SABER L1B netCDF file contents</Name>
-            <URL>http://www.gats-inc.com/saber_processing_v7/level1b_ncdump.pdf</URL>
-         </InformationURL>
-      </ResourceHeader>
-      <AccessInformation>
-         <RepositoryID>spase://SMWG/Repository/TIMED/SABER_POC</RepositoryID>
-         <Availability>Online</Availability>
-         <AccessRights>Open</AccessRights>
-         <AccessURL>
-            <Name>SABER POC website</Name>
-            <URL>http://saber.gats-inc.com/</URL>
-            <Description>This SABER home page provides access to download data files for this product.  To request data: click "Data Servides", click "Browse Data", click "Level 1B", click year, month and day of interest, then select the desired file.</Description>
-         </AccessURL>
-         <Format>NetCDF</Format>
-         <Encoding>None</Encoding>
-         <Acknowledgement>NASA, James M. Russell III</Acknowledgement>
-      </AccessInformation>
-       <AccessInformation>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
+    <Version>2.2.1</Version>
+    <NumericalData>
+        <ResourceID>spase://VITMO/NumericalData/TIMED/SABER/L1B</ResourceID>
+        <ResourceHeader>
+            <ResourceName>TIMED SABER Level 1B </ResourceName>
+            <ReleaseDate>2011-10-21T12:00:00.000</ReleaseDate>
+            <Description>Contains the SABER Level 1B calibrated radiance profiles converted to radiance units with instrument effects removed, geolocated and gridded to uniform angle spacing. </Description>
+            <Acknowledgement>NASA, James M. Russell III</Acknowledgement>
+            <Contact>
+                <PersonID>spase://SMWG/Person/James.M.Russell.III</PersonID>
+                <Role>PrincipalInvestigator</Role>
+            </Contact>
+            <InformationURL>
+                <Name>SABER L1B netCDF file contents</Name>
+                <URL>http://www.gats-inc.com/saber_processing_v7/level1b_ncdump.pdf</URL>
+            </InformationURL>
+        </ResourceHeader>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/TIMED/SABER_POC</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>SABER POC website</Name>
+                <URL>http://saber.gats-inc.com/</URL>
+                <Description>This SABER home page provides access to download data files for this product.  To request data: click "Data Servides", click "Browse Data", click "Level 1B", click year, month and day of interest, then select the desired file.</Description>
+            </AccessURL>
+            <Format>NetCDF</Format>
+            <Encoding>None</Encoding>
+            <Acknowledgement>NASA, James M. Russell III</Acknowledgement>
+        </AccessInformation>
+        <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
@@ -42,53 +41,58 @@
             <Format>Text</Format>
             <Acknowledgement>Please acknowledge the support from the CDAWeb team at GSFC/SPDF.</Acknowledgement>
         </AccessInformation>
-   <AccessInformation>
-      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
-      <Availability>Online</Availability>
-      <AccessRights>Open</AccessRights>
-      <AccessURL>
-        <Name>CDAWeb ftp area</Name>
-        <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/timed/saber/l1bv7/</URL>
-        <Description>FTP repository of TIMED SABER Level 1B version 1.07 data in CDF format at CDAWeb</Description>
-      </AccessURL>
-      <Format>CDF</Format>
-        <Acknowledgement>Please acknowledge the support from CDAWeb team at GSFC/SPDF.</Acknowledgement>
-    </AccessInformation>
-      <ProcessingLevel>Calibrated</ProcessingLevel>
-      <ProviderResourceName>SABER Level1B</ProviderResourceName>
-      <ProviderProcessingLevel>Level 1B</ProviderProcessingLevel>
-      <ProviderVersion>01.07</ProviderVersion>
-      <InstrumentID>spase://SMWG/Instrument/TIMED/SABER</InstrumentID>
-      <MeasurementType>Radiance</MeasurementType>
-      <MeasurementType>Profile</MeasurementType>
-      <TemporalDescription>
-         <TimeSpan>
-            <StartDate>2002-01-25T00:00:00.000</StartDate>
-            <RelativeStopDate>P30D</RelativeStopDate>
-         </TimeSpan>
-      </TemporalDescription>
-      <ObservedRegion>Earth.NearSurface.Mesosphere</ObservedRegion>
-      <ObservedRegion>Earth.NearSurface.Thermosphere</ObservedRegion>
-      <Keyword>TIMED</Keyword>
-      <Keyword>SABER</Keyword>
-      <Keyword>mesosphere</Keyword>
-      <Keyword>lower thermosphere</Keyword>
-      <Keyword>MLTI</Keyword>
-      <Parameter>
-         <Name>Calibrated radiance</Name>
-         <ParameterKey>Rad</ParameterKey>
-         <Description>Ten channels (CO2-N, CO2-W, CO2-W, O3, H2O, NO, CO2-B, OH-A, OH-B, O2) of calibrated radiance (watts/m2/sr)</Description>
-         <Units>watts/m2/sr</Units>
-         <FillValue>-999.</FillValue>
-         <Wave>
-            <WaveType>Electromagnetic</WaveType>
-            <WaveQuantity>Wavelength</WaveQuantity>
-            <WavelengthRange>
-               <Low>4.3</Low>
-               <High>15.2</High>
-               <Units>μm</Units>
-            </WavelengthRange>
-         </Wave>
-      </Parameter>
-   </NumericalData>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>SPDF FTP area</Name>
+                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/timed/saber/l1bv7/</URL>
+                <Description>FTP repository of TIMED SABER Level 1B version 1.07 data in CDF format at CDAWeb</Description>
+            </AccessURL>
+            <AccessURL>
+                <Name>SPDF HTTP area</Name>
+                <URL>http://spdf.gsfc.nasa.gov/pub/data/timed/saber/l1bv7/</URL>
+                <Description>In CDF via HTTP from SPDF</Description>
+            </AccessURL>
+            <Format>CDF</Format>
+            <Acknowledgement>Please acknowledge the support from CDAWeb team at GSFC/SPDF.</Acknowledgement>
+        </AccessInformation>
+        <ProcessingLevel>Calibrated</ProcessingLevel>
+        <ProviderResourceName>SABER Level1B</ProviderResourceName>
+        <ProviderProcessingLevel>Level 1B</ProviderProcessingLevel>
+        <ProviderVersion>01.07</ProviderVersion>
+        <InstrumentID>spase://SMWG/Instrument/TIMED/SABER</InstrumentID>
+        <MeasurementType>Radiance</MeasurementType>
+        <MeasurementType>Profile</MeasurementType>
+        <TemporalDescription>
+            <TimeSpan>
+                <StartDate>2002-01-25T00:00:00.000</StartDate>
+                <RelativeStopDate>P30D</RelativeStopDate>
+            </TimeSpan>
+        </TemporalDescription>
+        <ObservedRegion>Earth.NearSurface.Mesosphere</ObservedRegion>
+        <ObservedRegion>Earth.NearSurface.Thermosphere</ObservedRegion>
+        <Keyword>TIMED</Keyword>
+        <Keyword>SABER</Keyword>
+        <Keyword>mesosphere</Keyword>
+        <Keyword>lower thermosphere</Keyword>
+        <Keyword>MLTI</Keyword>
+        <Parameter>
+            <Name>Calibrated radiance</Name>
+            <ParameterKey>Rad</ParameterKey>
+            <Description>Ten channels (CO2-N, CO2-W, CO2-W, O3, H2O, NO, CO2-B, OH-A, OH-B, O2) of calibrated radiance (watts/m2/sr)</Description>
+            <Units>watts/m2/sr</Units>
+            <FillValue>-999.</FillValue>
+            <Wave>
+                <WaveType>Electromagnetic</WaveType>
+                <WaveQuantity>Wavelength</WaveQuantity>
+                <WavelengthRange>
+                    <Low>4.3</Low>
+                    <High>15.2</High>
+                    <Units>μm</Units>
+                </WavelengthRange>
+            </Wave>
+        </Parameter>
+    </NumericalData>
 </Spase>
