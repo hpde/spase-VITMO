@@ -76,12 +76,12 @@
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>SPDF FTP area</Name>
-                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/timed/guvi/aurora/</URL>
+                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/timed/cdf/guvi/aurora/</URL>
                 <Description>FTP repository of TIMED GUVI L3 Aurora data in CDF format at CDAWeb</Description>
             </AccessURL>
             <AccessURL>
                 <Name>SPDF HTTP area</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/timed/guvi/aurora/</URL>
+                <URL>http://spdf.gsfc.nasa.gov/pub/data/timed/cdf/guvi/aurora/</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
             </AccessURL>
             <Format>CDF</Format>

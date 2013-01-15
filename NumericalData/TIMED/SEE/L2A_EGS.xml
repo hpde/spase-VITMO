@@ -35,12 +35,12 @@
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>SPDF FTP area</Name>
-                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/timed/see/l2aegs/</URL>
+                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/timed/cdf/see/l2aegs/</URL>
                 <Description>FTP repository of TIMED SEE Level2A EGS Solar Irradiance data in CDF format at CDAWeb</Description>
             </AccessURL>
             <AccessURL>
                 <Name>SPDF HTTP area</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/timed/see/l2aegs/</URL>
+                <URL>http://spdf.gsfc.nasa.gov/pub/data/timed/cdf/see/l2aegs/</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
             </AccessURL>
             <Format>CDF</Format>

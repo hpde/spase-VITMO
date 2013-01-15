@@ -62,12 +62,12 @@
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>SPDF FTP area</Name>
-                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/timed/guvi/edp/</URL>
+                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/timed/cdf/guvi/edp/</URL>
                 <Description>FTP repository of TIMED GUVI L2B EDP data in CDF format at CDAWeb</Description>
             </AccessURL>
             <AccessURL>
                 <Name>SPDF HTTP area</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/timed/guvi/edp/</URL>
+                <URL>http://spdf.gsfc.nasa.gov/pub/data/timed/cdf/guvi/edp/</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
             </AccessURL>
             <Format>CDF</Format>

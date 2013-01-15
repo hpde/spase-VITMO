@@ -49,12 +49,12 @@ For normal operations, SEE observes the Sun for about 3 minutes every orbit (97 
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>SPDF FTP area</Name>
-                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/timed/see/l3a/</URL>
+                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/timed/cdf/see/l3a/</URL>
                 <Description>FTP repository of TIMED SEE Level 3A Solar Irradience data in CDF format at CDAWeb</Description>
             </AccessURL>
             <AccessURL>
                 <Name>SPDF HTTP area</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/timed/see/l3a/</URL>
+                <URL>http://spdf.gsfc.nasa.gov/pub/data/timed/cdf/see/l3a/</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
             </AccessURL>
             <Format>CDF</Format>

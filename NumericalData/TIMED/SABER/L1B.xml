@@ -47,12 +47,12 @@
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>SPDF FTP area</Name>
-                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/timed/saber/l1bv7/</URL>
+                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/timed/cdf/saber/l1bv7/</URL>
                 <Description>FTP repository of TIMED SABER Level 1B version 1.07 data in CDF format at CDAWeb</Description>
             </AccessURL>
             <AccessURL>
                 <Name>SPDF HTTP area</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/timed/saber/l1bv7/</URL>
+                <URL>http://spdf.gsfc.nasa.gov/pub/data/timed/cdf/saber/l1bv7/</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
             </AccessURL>
             <Format>CDF</Format>
