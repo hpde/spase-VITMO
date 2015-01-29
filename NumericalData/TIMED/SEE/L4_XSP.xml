@@ -4,7 +4,7 @@
         <ResourceID>spase://VITMO/NumericalData/TIMED/SEE/L4_XSP</ResourceID>
         <ResourceHeader>
             <ResourceName>TIMED SEE Level 4 XPS Modeled Solar Irradiance Data</ResourceName>
-            <ReleaseDate>2011-11-11T12:00:00.000</ReleaseDate>
+            <ReleaseDate>2015-01-28T00:00:00.000</ReleaseDate>
             <Description>The SEE XPS Level 4 data are derived from the XPS Level 1 data products. The XPS Level 4 processing algorithm uses reference CHIANTI spectral models to generate a higher spectral resolution (0.1 nm) estimate of the solar XUV irradiance by scaling the model reference spectra to match the XPS photometer currents (signal). The CHIANTI Quiet Sun (QS) spectrum and Active Region (AR) spectrum are used with a scaling of the AR spectrum to match the minimum signal on each day, and then a CHIANTI isothermal flare spectrum is scaled to match the signal above the daily minimum signal. The flare temperature is determined from the ratio of the GOES XRS 0.1-0.8 nm irradiance to the GOES XRS 0.05-0.4 nm irradiance. These scaling factors, flare temperature, and resulting model spectrum in the 0-40 nm range in 0.1 nm intervals are in the XPS Level 4 data product for every measurement made by XPS photometer #1 or #2 (0.1-7 nm band).
 
 A SEE XPS Level 4 data product is produced for each UT day, and these daily products are also merged into three different full mission data files:
@@ -25,7 +25,7 @@ The accuracy of the XPS Level 1 irradiance is 12%-26%, photometer dependent. The
             </Contact>
             <InformationURL>
                 <Name>L4 Data Information</Name>
-                <URL>http://lasp.colorado.edu/see/l3a_data_page.html</URL>
+                <URL>http://lasp.colorado.edu/home/see/data/observational-averages/level-4-model/</URL>
             </InformationURL>
         </ResourceHeader>
         <AccessInformation>
@@ -34,7 +34,7 @@ The accuracy of the XPS Level 1 irradiance is 12%-26%, photometer dependent. The
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>SEE Data Products web page</Name>
-                <URL>http://lasp.colorado.edu/see/see_data.html</URL>
+                <URL>http://lasp.colorado.edu/home/see/data/</URL>
                 <Description>This web page allows the request of data files for this product.  To request data: for the L3A data type of interest, click the year of interest to go the the ftp directory of files and download the desired day-long file by clicking on it.</Description>
             </AccessURL>
             <Format>NetCDF</Format>

@@ -4,7 +4,7 @@
         <ResourceID>spase://VITMO/NumericalData/TIMED/SEE/L3A</ResourceID>
         <ResourceHeader>
             <ResourceName>TIMED SEE Level 3A Solar Irradiance Data</ResourceName>
-            <ReleaseDate>2011-11-11T12:00:00.000</ReleaseDate>
+            <ReleaseDate>2015-01-28T00:00:00.000</ReleaseDate>
             <Description>SEE Level 3A data files contain each measurements averaged solar irradiance spectrum in 1 nm intervals extracted from the EGS Level 2A and XPS Level 2A data products. Shortward of 27 nm, a solar model is scaled to match the XPS broadband data. SEE Level 3A data files also contain 38 emission lines extracted from EGS Level 2A spectra, and the XPS Level 2A diode irradiances.
 
 For normal operations, SEE observes the Sun for about 3 minutes every orbit (97 minutes), which usually gives 14-15 measurements per day. The SEE Level 3A data are time averaged over each measurement, after applying corrections for atmospheric absorption, degradation, flare removal, and to 1-AU.</Description>
@@ -15,7 +15,7 @@ For normal operations, SEE observes the Sun for about 3 minutes every orbit (97 
             </Contact>
             <InformationURL>
                 <Name>L3 Data Information</Name>
-                <URL>http://lasp.colorado.edu/see/l3a_data_page.html</URL>
+                <URL>http://lasp.colorado.edu/home/see/data/observational-averages/level-3a/</URL>
             </InformationURL>
         </ResourceHeader>
         <AccessInformation>
@@ -24,7 +24,7 @@ For normal operations, SEE observes the Sun for about 3 minutes every orbit (97 
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>SEE Data Products web page</Name>
-                <URL>http://lasp.colorado.edu/see/see_data.html</URL>
+                <URL>http://lasp.colorado.edu/home/see/data/</URL>
                 <Description>This web page allows the request of data files for this product.  To request data: for the L3A data type of interest, click the year of interest to go the the ftp directory of files and download the desired day-long file by clicking on it.</Description>
             </AccessURL>
             <Format>NetCDF</Format>
