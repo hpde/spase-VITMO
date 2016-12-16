@@ -1,10 +1,10 @@
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
-    <Version>2.2.1</Version>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_8.xsd">
+    <Version>2.2.8</Version>
     <DisplayData>
         <ResourceID>spase://VITMO/DisplayData/TIMED/GUVI/Electron_Density_Profiles_PS</ResourceID>
         <ResourceHeader>
             <ResourceName>TIMED GUVI Electron Density Profile PS Images</ResourceName>
-            <ReleaseDate>2011-11-30T12:00:00.000</ReleaseDate>
+            <ReleaseDate>2016-12-16T11:44:00</ReleaseDate>
             <Description>F region electron density as a function of altitude and latitude derived from the GUVI limb data. Summaries of estimated peak electron density and total electron content are also given.  The profiles are derived from the 135.6 nm channel of the GUVI limb data. The 135.6 nm emission at night is due almost exclusively to recombination of O+ ions. Since O+ is the primary ion in the F region, the 135.6 nm volume emission rate is closely related to the square of the electron density.  The file spans roughly 63 days in one-day plots</Description>
             <Acknowledgement>The GUVI data used here are provided through support from the NASA MOamp;DA program. The GUVI instrument was designed and built by The Aerospace Corporation and The Johns Hopkins University. The Principal Investigator is Dr. Andrew B. Christensen and the Chief Scientist and co-PI is Dr. Larry J. Paxton. See also Data Usage Policy at http://guvi.jhuapl.edu/site/data/guvi-datausage.shtml.</Acknowledgement>
             <Contact>
@@ -61,13 +61,13 @@
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
-                <Name>SPDF FTP area</Name>
-                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/timed/cdf/guvi/edp/</URL>
+                <Name>FTP access to files at SPDF</Name>
+                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/timed/guvi/levels/level2b_e/edp/cdf/</URL>
                 <Description>FTP repository of TIMED GUVI L2B EDP data in CDF format at CDAWeb</Description>
             </AccessURL>
             <AccessURL>
-                <Name>SPDF HTTP area</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/timed/cdf/guvi/edp/</URL>
+                <Name>HTTP access to files at SPDF</Name>
+                <URL>http://spdf.gsfc.nasa.gov/pub/data/timed/guvi/levels/level2b_e/edp/cdf/</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
             </AccessURL>
             <Format>CDF</Format>
