@@ -4,9 +4,9 @@
         <ResourceID>spase://VITMO/DisplayData/TIMED/GUVI/O-N2_Summary_GIF</ResourceID>
         <ResourceHeader>
             <ResourceName>TIMED GUVI O/N2 Summary GIF Images</ResourceName>
-            <ReleaseDate>2011-11-30T12:00:00.000</ReleaseDate>
+            <ReleaseDate>2017-01-24T00:00:00Z</ReleaseDate>
             <Description>A combined map of GUVI O/N2 and CODE TEC (total electron content) over three days. The CODE TEC data were obtained from ftp.unibe.ch/aiub/CODE/ and re-sampled at GUVI O/N2 location and time. </Description>
-            <Acknowledgement>The GUVI data used here are provided through support from the NASA MOamp;DA program. The GUVI instrument was designed and built by The Aerospace Corporation and The Johns Hopkins University. The Principal Investigator is Dr. Andrew B. Christensen and the Chief Scientist and co-PI is Dr. Larry J. Paxton. See also Data Usage Policy at http://guvi.jhuapl.edu/site/data/guvi-datausage.shtml.</Acknowledgement>
+            <Acknowledgement>The GUVI data used here are provided through support from the NASA MOamp;DA program. The GUVI instrument was designed and built by The Aerospace Corporation and The Johns Hopkins University. The Principal Investigator is Dr. Andrew B. Christensen and the Chief Scientist and co-PI is Dr. Larry J. Paxton. See also Data Usage Policy at http://guvitimed.jhuapl.edu/home_guvi-datausage.</Acknowledgement>
             <Contact>
                 <PersonID>spase://SMWG/Person/Andrew.B.Christensen</PersonID>
                 <Role>PrincipalInvestigator</Role>
@@ -17,11 +17,11 @@
             </Contact>
             <InformationURL>
                 <Name>Thermospheric O/N2 and TEC Information</Name>
-                <URL>http://guvi.jhuapl.edu/site/data/documents/on2_tec_info.html</URL>
+                <URL>http://guvitimed.jhuapl.edu/data_on2_tec_info</URL>
             </InformationURL>
             <InformationURL>
                 <Name>L3 Thermospheric O/N2 and TEC (GIF) Data Products Availability</Name>
-                <URL>http://guvi.jhuapl.edu/site/data/data_status/l3_on2_tec_gif.shtml</URL>
+                <URL>http://guvitimed.jhuapl.edu/data_status_l3_on2_tec_gif</URL>
             </InformationURL>
         </ResourceHeader>
         <AccessInformation>
@@ -30,17 +30,17 @@
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>GUVI POC L3 Thermospheric O/N2 and TEC (GIF) Data Request</Name>
-                <URL>http://guvi.jhuapl.edu/site/data/data_fetch/l3_on2_tec_gif.shtml</URL>
+                <URL>http://guvitimed.jhuapl.edu/data_fetch_l3_on2_tec_gif</URL>
                 <Description>This web page allows the request of GIF-formatted image files for this product.  To request data: select the year and day then click the link of the desired file name.</Description>
             </AccessURL>
             <AccessURL>
                 <Name>GUVI POC L3 Thermospheric O/N2 and TEC Gallery</Name>
-                <URL>http://guvi.jhuapl.edu/site/gallery/guvi-galleryl3on2tec.shtml</URL>
+                <URL>http://guvitimed.jhuapl.edu/guvi-galleryl3on2tec</URL>
                 <Description>This web page allows viewing of individual images or a slideshow of a sequence of images.  To request data: select the year and day and then click display.</Description>
             </AccessURL>
             <AccessURL>
                 <Name>GUVI Data Products Access</Name>
-                <URL>http://guvi.jhuapl.edu/site/data/guvi-dataproducts.shtml</URL>
+                <URL>http://guvitimed.jhuapl.edu/data_products</URL>
                 <Description>This web page provides access to data products as well as to descriptions and availability information.</Description>
             </AccessURL>
             <Format>GIF</Format>
@@ -53,12 +53,12 @@
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>GUVI POC L3 Thermospheric O/N2 and TEC (PS) Data Request</Name>
-                <URL>http://guvi.jhuapl.edu/site/data/data_fetch/l3_on2_tec_ps.shtml</URL>
+                <URL>http://guvitimed.jhuapl.edu//data_fetch_l3_on2_tec_ps</URL>
                 <Description>This web page allows the request of PostScript-formatted image files for this product.  To request data: select the year and day then click the link of the desired file name.</Description>
             </AccessURL>
             <AccessURL>
                 <Name>GUVI Data Products Access</Name>
-                <URL>http://guvi.jhuapl.edu/site/data/guvi-dataproducts.shtml</URL>
+                <URL>http://guvitimed.jhuapl.edu/data_products</URL>
                 <Description>This web page provides access to data products as well as to descriptions and availability information.</Description>
             </AccessURL>
             <Format>Postscript</Format>

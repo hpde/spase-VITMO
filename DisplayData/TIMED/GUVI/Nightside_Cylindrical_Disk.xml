@@ -4,9 +4,9 @@
         <ResourceID>spase://VITMO/DisplayData/TIMED/GUVI/Nightside_Cylindrical_Disk</ResourceID>
         <ResourceHeader>
             <ResourceName>TIMED GUVI Nightside Cylindrical Composite Disk Images</ResourceName>
-            <ReleaseDate>2011-11-30T12:00:00.000</ReleaseDate>
+            <ReleaseDate>2017-01-24T00:00:00Z</ReleaseDate>
             <Description>This composite image is produced from GUVI radiance data (Level 1C) where the SZA &gt; 95 deg. (nightside) for a complete day mapped onto the globe. It is a composite of the O I 130.4 nm emission (blue), O I 135.6 nm (green), and LBH Short (140 - 150 nm) (red). White color indicates emission from particles in aurora (all colors), pink areas generally indicate particle precipitation (SAA) or solar glint, blue emissions indicate typical nighttime recombination emissions.</Description>
-            <Acknowledgement>The GUVI data used here are provided through support from the NASA MOamp;DA program. The GUVI instrument was designed and built by The Aerospace Corporation and The Johns Hopkins University. The Principal Investigator is Dr. Andrew B. Christensen and the Chief Scientist and co-PI is Dr. Larry J. Paxton. See also Data Usage Policy at http://guvi.jhuapl.edu/site/data/guvi-datausage.shtml.</Acknowledgement>
+            <Acknowledgement>The GUVI data used here are provided through support from the NASA MOamp;DA program. The GUVI instrument was designed and built by The Aerospace Corporation and The Johns Hopkins University. The Principal Investigator is Dr. Andrew B. Christensen and the Chief Scientist and co-PI is Dr. Larry J. Paxton. See also Data Usage Policy at http://guvitimed.jhuapl.edu/home_guvi-datausage .</Acknowledgement>
             <Contact>
                 <PersonID>spase://SMWG/Person/Andrew.B.Christensen</PersonID>
                 <Role>PrincipalInvestigator</Role>
@@ -17,7 +17,8 @@
             </Contact>
             <InformationURL>
                 <Name>Imaging L1C Data Information</Name>
-                <URL>http://guvi.jhuapl.edu/site/data/documents/L1C_datainfo.pdf</URL>
+                <URL>http://guvitimed.jhuapl.edu/sites/default/files/data/documents/L1C_datainfo.pdf
+</URL>
             </InformationURL>
         </ResourceHeader>
         <AccessInformation>
@@ -26,7 +27,7 @@
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>GUVI POC Daily Summary Image Gallery</Name>
-                <URL>http://guvi.jhuapl.edu/site/gallery/guvi-gallerydaily.shtml</URL>
+                <URL>http://guvitimed.jhuapl.edu/guvi-gallerydaily</URL>
                 <Description>This web page allows viewing of individual images or a slideshow of a sequence of images.  To request data: select the year and day and the CylinDisk Display type then click display for the desired image.</Description>
             </AccessURL>
             <Format>JPEG</Format>

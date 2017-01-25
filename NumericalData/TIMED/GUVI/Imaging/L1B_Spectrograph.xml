@@ -4,7 +4,7 @@
         <ResourceID>spase://VITMO/NumericalData/TIMED/GUVI/Imaging/L1B_Spectrograph</ResourceID>
         <ResourceHeader>
             <ResourceName>TIMED GUVI Level 1B Spectrograph</ResourceName>
-            <ReleaseDate>2011-11-04T12:00:00.000</ReleaseDate>
+            <ReleaseDate>2017-01-24T00:00:00Z</ReleaseDate>
             <Description>Level 1B Spectrograph data contains calibrated and geolocated radiance data into a GUVI based coordinate system in Spectrograph mode.</Description>
             <Acknowledgement>NASA, Andrew B. Christensen</Acknowledgement>
             <Contact>
@@ -13,7 +13,7 @@
             </Contact>
             <InformationURL>
                 <Name>Level 1B Spectrograph Data Information</Name>
-                <URL>http://guvi.jhuapl.edu/site/data/documents/L1B_spectrograph_datainfo.pdf</URL>
+                <URL>http://guvitimed.jhuapl.edu/sites/default/files/data/documents/L1B_spectrograph_datainfo.pdf</URL>
             </InformationURL>
         </ResourceHeader>
         <AccessInformation>
@@ -22,7 +22,7 @@
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>GUVI POC L1B Imaging Data Request</Name>
-                <URL>http://guvi.jhuapl.edu/site/data/data_fetch/l1b_spectrograph.shtml</URL>
+                <URL>http://guvitimed.jhuapl.edu/data_fetch_l1b_spectrograph</URL>
                 <Description>This web page allows the request of data files for this product.  To request data: select the year and day then press display.</Description>
             </AccessURL>
             <Format>NetCDF</Format>

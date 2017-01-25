@@ -1,10 +1,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
     <Version>2.2.2</Version>
     <NumericalData>
-        <ResourceID>spase://VITMO/NumericalData/TIMED/GUVI/Imaging/Imaging_L1C_Disk</ResourceID>
+        <ResourceID>spase://VITMO/NumericalData/TIMED/GUVI/Imaging/L1C_Disk</ResourceID>
         <ResourceHeader>
             <ResourceName>TIMED GUVI Imaging Level 1C Disk</ResourceName>
-            <ReleaseDate>2011-10-21T12:00:00.000</ReleaseDate>
+            <ReleaseDate>2017-01-24T00:00:00Z</ReleaseDate>
             <Description>This Level 1C data product measured over multiple scans on the disk contains data directly measure by the sensors such as photometer counts, uncertainties, light intensities and pointing information derived from the GUVI raw sensor data and the TIMED Satellite ephemeris data. The data are geolocated at a 150 km altitude, then gridded and binned to a 25 km X 25 km resolution GUVI-based coordinate system consisting of the along orbit position of the sensor and the angle of the scan from the nadir position.  This gridding eliminates overlap from scan to scan due to the large instantaneous field-of-view of GUVI (about 12 degrees) and involves coaddition to place the values on a uniform instrument shared grid.  The data is then determined whether its from day, night, aurora or twilight pixels.</Description>
             <Acknowledgement>NASA, Andrew B. Christensen</Acknowledgement>
             <Contact>
@@ -13,7 +13,8 @@
             </Contact>
             <InformationURL>
                 <Name>Imaging L1C Data Information</Name>
-                <URL>http://guvi.jhuapl.edu/site/data/documents/L1C_datainfo.pdf</URL>
+                <URL>http://guvitimed.jhuapl.edu/sites/default/files/data/documents/L1C_datainfo.pdf
+</URL>
             </InformationURL>
         </ResourceHeader>
         <AccessInformation>
@@ -22,7 +23,7 @@
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>GUVI POC Imaging L1C Data Request</Name>
-                <URL>http://guvi.jhuapl.edu/site/data/data_fetch/l1c.shtml</URL>
+                <URL>http://guvitimed.jhuapl.edu/data_fetch_l1c</URL>
                 <Description>This web page allows the request of data files for this product.  To request data: select the year and day then press display.</Description>
             </AccessURL>
             <Format>NetCDF</Format>
@@ -35,7 +36,7 @@
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov/sp_phys/</URL>
+                <URL>https://cdaweb.gsfc.nasa.gov/sp_phys/</URL>
                 <ProductKey>TIMED_L1CDISK_GUVI</ProductKey>
                 <Description>TIMED GUVI Imaging L1C data with subset, plot, list from CDAWeb</Description>
             </AccessURL>

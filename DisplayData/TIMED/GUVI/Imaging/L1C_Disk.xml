@@ -4,7 +4,7 @@
         <ResourceID>spase://VITMO/DisplayData/TIMED/GUVI/Imaging/L1C_Disk</ResourceID>
         <ResourceHeader>
             <ResourceName>TIMED GUVI Level 1C FUV airglow radiance images.</ResourceName>
-            <ReleaseDate>2016-12-16T11:44:00</ReleaseDate>
+            <ReleaseDate>2017-01-24T00:00:00Z</ReleaseDate>
             <Description>Global maps of GUVI Level 1C FUV airglow radiances.</Description>
             <Acknowledgement>NASA, Andrew B. Christensen</Acknowledgement>
             <Contact>
@@ -13,7 +13,8 @@
             </Contact>
             <InformationURL>
                 <Name>Imaging L1C Data Information</Name>
-                <URL>http://guvi.jhuapl.edu/site/data/documents/L1C_datainfo.pdf</URL>
+                <URL>http://guvitimed.jhuapl.edu/sites/default/files/data/documents/L1C_datainfo.pdf
+</URL>
             </InformationURL>
         </ResourceHeader>
         <AccessInformation>
@@ -22,7 +23,7 @@
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>GUVI POC Image Gallery</Name>
-                <URL>http://guvi.jhuapl.edu/site/gallery/guvi-galleryl1c.shtml</URL>
+                <URL>http://guvitimed.jhuapl.edu/guvi-galleryl1c</URL>
                 <Description>This web page allows the request of data files for this product.  To request data: select the year, day, orbit and display option, then press display.</Description>
             </AccessURL>
             <Format>JPEG</Format>
@@ -39,7 +40,7 @@
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/timed/guvi/levels/level1c/disk_cdf/</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/timed/guvi/levels/level1c/disk_cdf/</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
             </AccessURL>
             <Format>CDF</Format>
